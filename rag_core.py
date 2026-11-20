@@ -41,7 +41,7 @@ import numpy as np
 from pypdf import PdfReader
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_PDF = HERE / "data" / "rag_leitfaden.pdf"
+DEFAULT_PDF = HERE / "data" / "rag_Leitfaden.pdf"
 # Kursbezug: dieselben Stellschrauben wie beim Chunking in M07, z. B.
 # CHUNK_SIZE = 1000 / CHUNK_OVERLAP = 200 in M07_VectorDB_RAG/90_capstone_project/10_data_prep.py.
 # Die Überlappung sorgt dafür, dass ein Satz an der Chunk-Grenze nicht verloren geht.
